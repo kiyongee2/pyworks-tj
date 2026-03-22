@@ -25,3 +25,16 @@ print(fruit) #['딸기', '사과', '감']
 
 fruit.append(["배", "당근"])
 print(fruit) #['딸기', '사과', '감', ['배', '당근']]
+
+# 정렬 - sort() : 오름차순 
+numbers = [5, 2, 9, 1, 5]
+numbers.sort()
+print("sort 후:", numbers) #[1, 2, 5, 5, 9]
+
+# 뒤집기 - reverse()
+numbers.reverse()
+print("reverse 후:", numbers) #[9, 5, 5, 2, 1]
+
+# 리스트 복사 - copy() : 데이터 분석시 원본 유지에 사용 
+copyed_numbers = numbers.copy()
+print("copy 후:", copyed_numbers)
