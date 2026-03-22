@@ -10,16 +10,16 @@ print("x =", x)
 print("name = ", name)
 print("pi =", pi)
 
-x = 100
+x = 100 # 데이터 변경(재할당)
 print("x =", x)
 
 # 논리값(True/False)
 # 파이썬은 snake법('_'를 사용)
 is_merried = True
-print(is_merried)
+print("결혼유무:", is_merried)
 
 is_run = False
-print("실행유무: ", is_run)
+print("실행유무:", is_run)
 
 # 변수 이름 만들때 불가한 경우
 #2num = 20  #숫자로 시작 불가

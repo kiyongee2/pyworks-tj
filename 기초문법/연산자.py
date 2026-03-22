@@ -1,7 +1,7 @@
 # 연산자 - 값이나 변수에 대해 계산이나 비교 등의 작업을 수행하는 기호
 # 산술, 비교, 논리 연산자
 # 산술 연산자
-"""
+
 n1 = 10
 n2 = 4
 
@@ -12,7 +12,7 @@ print("n1 / n2 =", n1 / n2)
 print("n1 // n2 =", n1 // n2) #2, 몫
 print("n1 % n2 =", n1 % n2) #2, 나머지
 print("n1 ** n2=", n1 ** n2) #10000, 거듭제곱
-"""
+
 
 # 비교 연산자
 x = 10
@@ -22,8 +22,8 @@ print(x > 0) #True
 print(y > 0) #False
 print()
 
-print(x == 10) #True
-print(x != 10) #False
+print(x == 10) #True, 같다
+print(x != 10) #False, 같지 않다.
 print()
 
 # 논리 연산자 - and, or, not
@@ -69,7 +69,7 @@ print("x =", x, ", y =", y)
 bread = 30
 people = 4
 
-share = bread // people
+share = bread // people 
 remain = bread % people
 
 print("몫:", share, ", 남은 빵:", remain)
