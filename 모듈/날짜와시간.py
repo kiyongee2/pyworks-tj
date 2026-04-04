@@ -22,4 +22,4 @@ print("식목일:", the_day)
 
 # 날짜 차이 계산
 date_diff = the_day - today
-print("D-day:", date_diff.days) #D-day: 7
+print("D-day:", date_diff.days) #D-day: 1
